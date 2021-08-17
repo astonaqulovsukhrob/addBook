@@ -6,17 +6,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
 
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
   min-height: 100vh;
+  width: 70%;
+  margin: auto;
 }
 
 .mainConatainer {
-  width: 800px;
+  width: 100%;
   margin: auto;
   padding: 16px;
   z-index: 20;
+}
+
+.mainConatainer h1 {
+  font-size: 50px;
+}
+
+.mainConatainer label {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline-color: aqua;
+}
+
+.table {
+  font-size: 18px;
+}
+
+label {
+  margin-top: 20px;
 }
 
 .btn {
@@ -25,15 +51,10 @@ body {
   border: none;
   color: #fff;
   font-size: 18px;
+  margin-top: 20px;
 }
 
-.mainConatainer h1 {
-  font-size: 50px;
-  color: #fff;
-}
-
-.mainConatainer label {
-  color: #fff;
-  font-weight: 300;
-  font-size: 20px;
+tbody tr td {
+  font-size: 18px;
+  font-weight: 550;
 }
